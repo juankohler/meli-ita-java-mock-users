@@ -1,0 +1,82 @@
+[
+  {
+    "id": "MLB",
+    "name": "Brasil"
+  },
+  {
+    "id": "MCR",
+    "name": "Costa Rica"
+  },
+  {
+    "id": "MLU",
+    "name": "Uruguay"
+  },
+  {
+    "id": "MLA",
+    "name": "Argentina"
+  },
+  {
+    "id": "MRD",
+    "name": "Dominicana"
+  },
+  {
+    "id": "MGT",
+    "name": "Guatemala"
+  },
+  {
+    "id": "MCU",
+    "name": "Cuba"
+  },
+  {
+    "id": "MHN",
+    "name": "Honduras"
+  },
+  {
+    "id": "MPY",
+    "name": "Paraguay"
+  },
+  {
+    "id": "MEC",
+    "name": "Ecuador"
+  },
+  {
+    "id": "MLC",
+    "name": "Chile"
+  },
+  {
+    "id": "MSV",
+    "name": "El Salvador"
+  },
+  {
+    "id": "MNI",
+    "name": "Nicaragua"
+  },
+  {
+    "id": "MLM",
+    "name": "Mexico"
+  },
+  {
+    "id": "MCO",
+    "name": "Colombia"
+  },
+  {
+    "id": "MBO",
+    "name": "Bolivia"
+  },
+  {
+    "id": "MPA",
+    "name": "Panamá"
+  },
+  {
+    "id": "MLV",
+    "name": "Venezuela"
+  },
+  {
+    "id": "MPE",
+    "name": "Perú"
+  },
+  {
+    "id": "MPT",
+    "name": "Portugal"
+  }
+]
