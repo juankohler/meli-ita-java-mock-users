@@ -31,13 +31,14 @@ public class Server {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
+
         Gson gson = new Gson();
-        Gson gson2 = new Gson();
-        JsonReader reader = new JsonReader(new FileReader("/Users/asuero/IdeaProjects/mockusers/src/main/java/sites.json")); //cambiar path a gusto
+
+        JsonReader reader = new JsonReader(new FileReader(System.getProperty("user.dir") + "/src/main/java/sites.json")); //cambiar path a gusto
         Sites[] sites = gson.fromJson(reader, Sites[].class);
 
-        JsonReader reader2 = new JsonReader(new FileReader("/Users/asuero/IdeaProjects/mockusers/src/main/java/categories.json")); //cambiar path a gusto
-        Categories[] categories = gson2.fromJson(reader2, Categories[].class);
+        JsonReader reader2 = new JsonReader(new FileReader(System.getProperty("user.dir") + "/src/main/java/categories.json")); //cambiar path a gusto
+        Categories[] categories = gson.fromJson(reader2, Categories[].class);
 
         consulta("GET","/users/sites",200,"application/json", new Gson().toJsonTree(sites).toString(),500);
         consulta("POST","/users",200,"application/json", "{\"username\":\"adriansuero\",\"token\":\"akjsdbakjda\"}",500);
